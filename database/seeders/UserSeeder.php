@@ -15,13 +15,13 @@ class UserSeeder extends Seeder {
         User::truncate();
 
         $users = [
-            [ 'name' => 'NetCoden Inc' ],
-            [ 'name' => 'Nasiruddin Khan' ],
+            [ 'name' => 'Josh Smith' ],
+            [ 'name' => 'John Doe' ],
             // [ 'name' => '' ],
         ];
 
         foreach ($users as $key => $user) {
-            $user['email'] = $key === 0 ? 'netcoden@gmail.com' : 'shawonk007@gmail.com';
+            $user['email'] = $key === 0 ? 'admin@gmail.com' : 'customer@gmail.com';
             $user['password'] = Hash::make('12345678');
             $user['role'] = $key === 0 ? Role::ADMIN : Role::CUSTOMER;
             User::create($user);

@@ -13,7 +13,7 @@
             <span class="input-group-text rounded-0" id="email-icon" >
               <i class="fas fa-envelope" ></i>
             </span>
-            <input type="email" name="email" class="form-control rounded-0" id="email" placeholder="Enter your email" value="netcoden@gmail.com" aria-label="email" aria-describedby="email-icon" />
+            <input type="email" name="email" class="form-control rounded-0" id="email" placeholder="Enter your email" value="admin@gmail.com" aria-label="email" aria-describedby="email-icon" />
           </div>
         </div>
         <div class="col-12" >
